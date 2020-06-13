@@ -1,0 +1,75 @@
+
+body{ 
+  margin: 0;
+  padding: 0;
+
+  background: url(mob.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+section{
+	max-width: 1vw;
+}
+
+
+.orange {
+	color: #FF8C00;
+	font-size: 5.5vw;
+	font-weight: 700;
+
+}
+.white {
+	color: white;
+	font-size: 5.5vw;
+	font-weight: 700;
+
+}
+
+.buffer{
+	height: 4vh;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	 }
+
+a:hover{
+	text-decoration: none;
+	color: white;
+	 }
+.btn{
+	font-weight: 700;
+	border-radius: 10px;
+	text-transform:uppercase;
+	box-shadow: 4px 4px #104510;
+	position: relative;
+
+
+
+	
+}
+
+.btn-xl{
+	padding: 1.5vw 2.5vw;
+	
+	}
+
+.btn:hover{
+	background: transparent;
+	border: 2px black;
+	box-shadow: 4px 4px white;
+}
+}
+
+.btn-success{
+	background-color: #228B22;
+	border: 2px #228B22;
+	
+}
+
